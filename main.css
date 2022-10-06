@@ -6,7 +6,7 @@ html, body *{
     font-family:'Silkscreen', cursive;
   }
   body{
-    background-color: firebrick;
+    background-color: darkslateblue;
   }
 
   .header {
@@ -23,31 +23,121 @@ html, body *{
     justify-content: center;
     font-style: oblique;
     }
-    
-.flex-column{
-   display: flex;
-    height: 100vh;
-    background-color: firebrick;
-  }
-.flex-row{
-  background-color: firebrick;
-  width: 160px;
-  height: 80px;
-  padding: 20px;
-  box-shadow: 300vh;
+    .headers {
+     color: darkgoldenrod;
+     font-size: 5rem;
+      display: flex;
+      justify-content: center;
+      font-style: oblique;
+      }
+.flex{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
 }
 .content-box {
   box-sizing: content-box;
-  /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
-     Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
-     Content box width: 160px
-     Content box height: 80px */
 }
 
 .border-box {
   box-sizing: border-box;
-  /* Total width: 160px
-     Total height: 80px
-     Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
-     Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
+ 
 }
+    {
+          box-sizing: border-box;
+    }
+        
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 10px 10px 10px 4px;
+          justify-content: space-around;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .column {
+          display: inline;
+          flex: 25%;
+          max-width: 35%;
+          max: height 75px;
+          padding: 0 4px;
+          align-content: center;
+          margin-top: 10%;
+          margin-bottom: 10%;
+        }
+        
+      
+        .div1 {
+          width: 400px;
+          height: 400px;
+          background-color: cornflowerblue;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+        .div4 {
+          width: 400px;
+          height: 400px;
+          background-color: indianred;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+
+        .div2 {
+          width: 400px;
+          height: 400px;
+          background-color: lightgreen;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+
+        .div3 {
+          width: 400px;
+          height: 400px;
+          background-color:goldenrod;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+
+       
+
+        .div6 {
+          width: 400px;
+          height: 400px;
+         background-color: red;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+        .div7 {
+          width: 400px;
+          height: 400px;
+         background-color: dodgerblue;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+        .div8 {
+          width: 400px;
+          height: 400px;
+          background-color: green;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+        .div9 {
+          width: 400px;
+          height: 400px;
+          background-color: lightpink;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+        .div5 {
+          width: 400px;
+          height: 400px;
+          background-color: lightblue;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+
+        @media screen and (max-width: 800px) {
+          .column {
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+        
+        @media screen and (max-width: 600px) {
+          .column {
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
