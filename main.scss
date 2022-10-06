@@ -1,0 +1,12 @@
+@import"flex";
+@import"headers";
+@import "body";
+@import "main";
+html, body *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; 
+  font-family:'Silkscreen', cursive;
+  background-color: firebrick;
+}

@@ -1,0 +1,16 @@
+@import"flex";
+@import "headers";
+@import "main";
+@import "body";
+html, body *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; 
+    font-family:'Silkscreen', cursive;
+  }
+  .flex-column{
+   display: flex;
+    height: 100vh;
+    background-color: black;
+  }

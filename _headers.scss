@@ -1,0 +1,22 @@
+@import "flex";
+html, body *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; 
+    font-family:'Silkscreen', cursive;
+  }
+
+    .header {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    } 
+  
+    .header1 {
+    color: black;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    }
