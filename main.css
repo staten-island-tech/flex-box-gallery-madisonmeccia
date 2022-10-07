@@ -71,14 +71,16 @@ html, body *{
      
         }
 
-      .div9{
+      .div1-card{
         color: darkblue;
         font-size: 5rem;
-        font-style: oblique;
+         font-style: oblique;
+         display: flex;
+         justify-content: center;
       }
 
       .div8{
-        color: lightgreen;
+        color: lightskyblue;
         font-size: 5rem;
          font-style: oblique;
          display: flex;
@@ -280,8 +282,8 @@ html, body *{
 .card-img10{
   display: flex;
   flex: auto;
- height: 100%;
- width: 410px;
+ height: 90%;
+ width: 390px;
  align-items: center;
  position: relative;
  object-fit: contain;
@@ -290,6 +292,6 @@ html, body *{
  justify-content: center;
  align-content: flex-start;
  margin-left: 155px;
- margin-bottom: 950px;
- margin-top: -80px;
+ margin-bottom: 750px;
+ margin-top: 40px;
 }
