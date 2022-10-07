@@ -17,7 +17,7 @@ html, body *{
     } 
   
     .header1 {
-    color: black;
+    color: lightpink;
     font-size: xx-large;
     display: flex;
     justify-content: center;
@@ -30,6 +30,7 @@ html, body *{
       justify-content: center;
       font-style: oblique;
       }
+<<<<<<< HEAD
       .flex{
         height: 230vh;
         background-color: darkslateblue;
@@ -143,3 +144,89 @@ html, body *{
                 }
               }
       
+=======
+.flex{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+}
+
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 10px 10px 10px 4px;
+          justify-content: space-around;
+          align-items: center;
+        }
+        
+        .column {
+          display: flex;
+          flex: 25%;
+          height: 50%;
+          padding: 0 4px;
+          justify-content: center;
+          margin-top: 10%;
+          margin-bottom: 10%;
+        }
+        
+      .card{
+        width: 30%;
+        height: 400px;
+  
+        box-shadow: 10px 10px 10px 10px crimson;
+      }
+        .div1 {
+          
+          background-color: cornflowerblue;
+      
+        }
+        .div4 {
+         
+          background-color: indianred;
+          
+        }
+
+        .div2 {
+      
+          background-color: lightgreen;
+     
+        }
+
+        .div3 {
+      
+          background-color:goldenrod;
+       
+        }
+
+       
+
+        .div6 {
+        
+         background-color: red;
+       
+        }
+        .div7 {
+     
+         background-color: dodgerblue;
+      
+        }
+        .div8 {
+       
+          background-color: green;
+       
+        }
+        .div9 {
+          width: 400px;
+          height: 400px;
+          background-color: lightpink;
+          box-shadow: 10px 10px 10px 10px crimson;
+        }
+        .div5 {
+       
+          background-color: lightblue;
+     
+        }
+.card-img{
+  color: red;
+}
+>>>>>>> 032b070a3f4c77cd3d2ba44e5624eedb66c9a4a9
