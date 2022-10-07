@@ -30,114 +30,116 @@ html, body *{
       justify-content: center;
       font-style: oblique;
       }
-.flex{
-  display: flex;
-  flex-wrap: wrap-reverse;
-  align-items: center;
-}
-.content-box {
-  box-sizing: content-box;
-}
-
-.border-box {
-  box-sizing: border-box;
- 
-}
-    {
-          box-sizing: border-box;
-    }
-        
-        .row {
-          display: flex;
-          flex-wrap: wrap;
-          padding: 10px 10px 10px 4px;
-          justify-content: space-around;
-          align-items: center;
-          justify-content: center;
-        }
-        
-        .column {
-          display: inline;
-          flex: 25%;
-          max-width: 35%;
-          max: height 75px;
-          padding: 0 4px;
-          align-content: center;
-          margin-top: 10%;
-          margin-bottom: 10%;
-        }
-        
+      .flex{
+        height: 230vh;
+        background-color: darkslateblue;
+       -ms-flex-item-align: center;
+    
+      }
+      .content-box {
+        box-sizing: content-box;
+      }
       
-        .div1 {
-          width: 400px;
-          height: 400px;
-          background-color: cornflowerblue;
-          box-shadow: 10px 10px 10px 10px crimson;
-        }
-        .div4 {
-          width: 400px;
-          height: 400px;
-          background-color: indianred;
-          box-shadow: 10px 10px 10px 10px crimson;
-        }
-
-        .div2 {
-          width: 400px;
-          height: 400px;
-          background-color: lightgreen;
-          box-shadow: 10px 10px 10px 10px crimson;
-        }
-
-        .div3 {
-          width: 400px;
-          height: 400px;
-          background-color:goldenrod;
-          box-shadow: 10px 10px 10px 10px crimson;
-        }
-
+      .border-box {
+        box-sizing: border-box;
        
-
-        .div6 {
-          width: 400px;
-          height: 400px;
-         background-color: red;
-          box-shadow: 10px 10px 10px 10px crimson;
-        }
-        .div7 {
-          width: 400px;
-          height: 400px;
-         background-color: dodgerblue;
-          box-shadow: 10px 10px 10px 10px crimson;
-        }
-        .div8 {
-          width: 400px;
-          height: 400px;
-          background-color: green;
-          box-shadow: 10px 10px 10px 10px crimson;
-        }
-        .div9 {
-          width: 400px;
-          height: 400px;
-          background-color: lightpink;
-          box-shadow: 10px 10px 10px 10px crimson;
-        }
-        .div5 {
-          width: 400px;
-          height: 400px;
-          background-color: lightblue;
-          box-shadow: 10px 10px 10px 10px crimson;
-        }
-
-        @media screen and (max-width: 800px) {
-          .column {
-            flex: 50%;
-            max-width: 50%;
+      }
+          {
+                box-sizing: border-box;
           }
-        }
-        
-        @media screen and (max-width: 600px) {
-          .column {
-            flex: 100%;
-            max-width: 100%;
-          }
-        }
+              
+              .row {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                justify-content: center;
+               margin: 20vh;
+              }
+              
+              .column {
+                display: inline;
+                flex: 25%;
+                height: 90%;
+                width:105%;
+                padding: 0 4px;
+                align-content: center;
+                margin-top: 10%;
+                margin-bottom: 10%;
+              }
+              
+            
+              .div1 {
+                width: 400px;
+                height: 400px;
+                background-color: cornflowerblue;
+                box-shadow: 2px 2px 2px 2px crimson;
+              }
+              .div4 {
+                width: 400px;
+                height: 400px;
+                background-color: indianred;
+                box-shadow: 2px 2px 2px 2px crimson;
+              }
+      
+              .div2 {
+                width: 400px;
+                height: 400px;
+                background-color: lightgreen;
+                box-shadow: 2px 2px 2px 2px crimson;
+              }
+      
+              .div3 {
+                width: 400px;
+                height: 400px;
+                background-color:goldenrod;
+                box-shadow: 2px 2px 2px 2px crimson;
+              }
+      
+             
+      
+              .div6 {
+                width: 400px;
+                height: 400px;
+               background-color: red;
+                box-shadow: 2px 2px 2px 2px crimson;
+              }
+              .div7 {
+                width: 400px;
+                height: 400px;
+               background-color: dodgerblue;
+                box-shadow: 2px 2px 2px 2px crimson;
+              }
+              .div8 {
+                width: 400px;
+                height: 400px;
+                background-color: green;
+                box-shadow: 2px 2px 2px 2px crimson;
+              }
+              .div9 {
+                width: 400px;
+                height: 400px;
+                background-color: lightpink;
+                box-shadow: 2px 2px 2px 2px crimson;
+              }
+              .div5 {
+                width: 400px;
+                height: 400px;
+                background-color: lightblue;
+                box-shadow: 2px 2px 2px 2px crimson;
+              }
+      
+              @media screen and (max-width: 800px) {
+                .column {
+                  flex: 50%;
+                  max-width: 50%;
+                }
+              }
+              
+              @media screen and (max-width: 600px) {
+                .column {
+                  flex: 100%;
+                  max-width: 100%;
+                }
+              }
+      
