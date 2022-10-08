@@ -1,6 +1,5 @@
 html, body *{
   padding: 0;
-  margin: 0;
   box-sizing: border-box;
   font-size: 62.5%; 
   font-family:'Silkscreen', cursive;
@@ -20,11 +19,15 @@ body{
   color: lightpink;
   font-size: xx-large;
   font-style: oblique;
+  display: flex;
+align-items: center;
 }
 .headers {
   color: aqua;
   font-size: 6rem;
   font-style: oblique;
+  display: flex;
+  align-self: center;
 }
 
 .flex{
@@ -36,23 +39,19 @@ body{
   padding: 10px 10px 10px 4px;
   justify-content: space-around;
   align-items: center;
-  margin: 0 16px;
 } 
         
 .column {
   height: 50%;
-  margin: 0 70px;
   justify-content: center;
 }
 
 .card{
-  width: 33rem;
+  width: 29rem;
   height: 700px;
-  margin: 0px 20px;
   background-color: plum;
   box-shadow: 10px 10px 10px 10px lightblue;
   display: flex;
-  margin: 30px;
 }
 
 .div2 {
@@ -97,7 +96,4 @@ body{
   justify-items: normal;
   justify-content: center;
   align-content: flex-start;
-  margin-left: 190px;
-  margin-bottom: 450px;
-  margin-top: -50px;
 }
