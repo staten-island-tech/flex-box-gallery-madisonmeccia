@@ -6,34 +6,30 @@ html, body *{
 }
 body{
   background-color: cornflowerblue;
+  width: 100rem;
 }
 
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 5vh;
   padding-bottom: 5vh;
+  padding-left: 29em;
 } 
 
 .header1 {
   color: lightpink;
-  font-size: xx-large;
-  font-style: oblique;
-  display: flex;
-align-items: center;
+  font-size: 2rem;
+ padding-left: 22em;
 }
 .headers {
   color: aqua;
-  font-size: 6rem;
-  font-style: oblique;
-  display: flex;
-  align-self: center;
+  font-size: 3rem;
+  padding-left: 16em;
 }
 
 .flex{
-  display: flex;
-  flex-wrap: wrap-reverse;
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
   padding: 10px 10px 10px 4px;
@@ -42,23 +38,30 @@ align-items: center;
 } 
         
 .column {
-  height: 50%;
+  height: 50rem;
+  display: flex;
   justify-content: center;
 }
 
 .card{
-  width: 29rem;
-  height: 700px;
+  width: 25rem;
+  height: 300px;
   background-color: plum;
   box-shadow: 10px 10px 10px 10px lightblue;
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5rem;
+  margin-left: 14rem;
+  margin-right: -11rem;
+  margin-bottom: 5rem;
+  justify-content: flex-end;
+  padding-right: 1rem;
 }
 
-.div2 {
-  background-color: lightpink;
-}
 .div8{
-  color: lightskyblue;
+  color: green;
 }
 .div7{
   color: red;
@@ -82,18 +85,18 @@ align-items: center;
   color: royalblue;
 }
 .div9 {
-  background-color: mediumpurple;
+color: chocolate
 }
 
 .card-img{
   display: flex;
   flex: auto;
   height: 80%;
-  width: 330px;
+  width: 300px;
   align-items: center;
   position: relative;
   object-fit: contain;
-  justify-items: normal;
-  justify-content: center;
   align-content: flex-start;
+  padding-left: 13rem;
+  padding-top: 5rem;
 }
