@@ -16,12 +16,14 @@ body{
 .header1 {
   color: darkslateblue;
   font-size: 2rem;
-padding-left: 43rem;
+  display: flex;
+ justify-content: center;
 }
 .headers {
-  color:palevioletred;
+  color:brown;
   font-size: 3rem;
-  padding-left: 48rem;
+  display: flex;
+  justify-content: center;
 }
 
 .flex{
@@ -61,10 +63,10 @@ padding-left: 43rem;
   color: red;
 }
 .div6{
-  color: aquamarine;
+  color: darkcyan;
 }
 .div5{
-  color: paleturquoise;
+  color: palevioletred;
 }
 .div4{
   color: rebeccapurple;
@@ -91,6 +93,6 @@ color: chocolate
   position: relative;
   object-fit: contain;
   align-content: flex-start;
-  padding-left: 5rem;
+  padding-left: 8rem;
   padding-top: 5rem;
 }
