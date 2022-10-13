@@ -11,7 +11,7 @@ body{
 .header {
   display: flex;
   justify-content: center;
-  transition: all 0.3s;
+  transition: all 0.4s;
 } 
 
 .header:hover{
@@ -23,7 +23,13 @@ body{
   font-size: 2rem;
   display: flex;
  justify-content: center;
+ transition: all 0.4s;
 }
+
+.header1:hover{
+  transform: scale(1.8);
+}
+
 .headers {
   color:brown;
   font-size: 3rem;
