@@ -5,33 +5,29 @@ html, body *{
   font-family:'Silkscreen', cursive;
 }
 body{
-  background-color: cornflowerblue;
+  background-color: plum;
 }
 
 .header {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  padding-left: 30rem;
 } 
 
 .header1 {
-  color: lightpink;
+  color: darkslateblue;
   font-size: 2rem;
-padding-left: 45rem;
+padding-left: 43rem;
 }
 .headers {
-  color: aqua;
+  color:palevioletred;
   font-size: 3rem;
-  padding-left: 50rem;
+  padding-left: 48rem;
 }
 
 .flex{
   display: flex;
   flex-wrap: wrap;
-  width: 95vw;
+  width: 92vw;
   justify-content: space-around;
  margin: 30px auto;
 } 
@@ -43,12 +39,12 @@ padding-left: 45rem;
 }
 
 .card{
-  width: 100%;
+  width: 30%;
   height: 300px;
-  background-color: plum;
-  box-shadow: 10px 10px 10px 10px lightblue;
+ background-color: lightpink;
+  box-shadow: 10px 10px 10px 10px palevioletred;
   display: flex;
-  font-size: large;
+  font-size: medium;
   align-content: center;
   justify-content: flex-end;
   margin-top: 5rem;
@@ -95,6 +91,6 @@ color: chocolate
   position: relative;
   object-fit: contain;
   align-content: flex-start;
-  padding-left: 13rem;
+  padding-left: 5rem;
   padding-top: 5rem;
 }
