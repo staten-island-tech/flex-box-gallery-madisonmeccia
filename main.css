@@ -196,7 +196,7 @@ transform:scale(0.8);
 }
 .card:hover{
   animation-name:rotate;
-  animation-duration: 0.5s;
+  animation-duration: 0.9s;
 }
 
 @keyframes rotate {
@@ -204,6 +204,6 @@ transform:scale(0.8);
     transform: rotate(0);
   }
   100% {
-    transform: rotate(90deg);
+    transform: rotate(720deg);
   }
 }
