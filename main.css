@@ -11,7 +11,12 @@ body{
 .header {
   display: flex;
   justify-content: center;
+  transition: all 0.3s;
 } 
+
+.header:hover{
+  transform: scale(1.2);
+}
 
 .header1 {
   color: darkslateblue;
