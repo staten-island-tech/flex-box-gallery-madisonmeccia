@@ -206,3 +206,17 @@ transition: all 0.4s;
 .card:hover {
   box-shadow:0 5px 50px red;
 }
+.roald:active{
+  -webkit-transform:translateY(20px);
+  transform: :translateY(20px);
+}
+@media (max-width:340px){
+  .flex>.card {
+    flex-basis: 30%;
+  }
+}
+@media (max-width: 750px) {
+  .flex>.card {
+    flex-basis:75%;
+  }
+}
